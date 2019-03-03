@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow" style="width: 100%;position: fixed;top: 0; left: 0;z-index: 1000">
+            <li>
+                <a class="zoom_tab" href="#about">About</a>
+            </li>
+            <li>
+                <a class="zoom_tab" href="#experience">Experience</a>
+            </li>
+            <li>
+                <a class="zoom_tab" href="#education">Education</a>
+            </li>
+            <li>
+                <a class="zoom_tab" href="#projects">Certifications</a>
+            </li>
+            <li>
+                <a class="zoom_tab" href="#skills">Skills</a>
+            </li>
+            <li>
+                <a class="zoom_tab" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content" style="z-index: 2;">
+            <font size="12em" color="white">Jay Thompson</font>
+            <h2>Systems Engineer</h2>
+            <a target="_blank" rel="noopener noreferrer" href="JayThompson-CSV.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down" style="z-index: 2;">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Systems Engineer with over 20+ years of experience. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline" style="z-index: 2;">
+            <div data-date="June 2013 – Present">
+                <h3>Neustar</h3>
+                <h4>Senior Systems Admin Manager</h4>
+                <p align="left">
+                    Neustar is a SaaS company with many LOBs - Identity, Marketing, Risk, Communications, Digital Defense, and Registry services.
+                    They help their clients grow, guard, and guide their businesses by connecting people, places, and things with world-class and industry-leading solutions.<br>
+                    - Member of the Architecture and Design Team assisting the Converged Team(Core Hosting, Storage, Networking, and Automation/Tools Team) that supports all LOBs.<br>
+                    - Designed/Built/Automated/Supported Neustar's HCI standard of VMware ESXi/EMC ScaleIO(SDS)/PURE storage/Arista switches.<br>
+                    - Currently researching/designing/testing Kubernetes(Openshift vs. Pivotal PKS) with Prometheus and Istio.
+                </p>
+            </div>
+
+            <div data-date="October 2012 – June 2013">
+                <h3>Digital Globe</h3>
+                <h4>Senior Systems Integration Engineer</h4>
+                <p>
+                    DigitalGlobe owns and operates the most agile and sophisticated constellation of high-resolution commercial Earth imaging satellites.<br>
+					Provider of geospatial maps to Google Earth and Google Maps.<br>
+                    - Managed four contractors deploying code to DEV and PROD environment.<br>
+                    - I was responsible for deployment of application stack down to virtualization layer while creating recommended best practices and troubleshooting failures.<br>
+                </p>
+            </div>
+
+            <div data-date="July 2010 – September 2012">
+                <h3>Blackboard Inc.</h3>
+                <h4>Senior Systems Engineer</h4>
+                <p>
+                    An educational technology company popular in many colleges and universities.<br>
+					Blackboard Learn is their most popular product, a learning management system.<br>
+					I was responsible for deploying highly customized infrastructure that supported the Managed Hosting division.<br>
+					Part of my operational duties was to provide RFO's, fix infrastructure tooling issues, and provide assistance for production outages.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>George Mason University</h3>
+            <span class="education-date">August 1998 - December 2000</span>
+            <h4>Associates in Mathematics</h4>
+            <p>
+                <p class="tab">- CS 112/211: C++ Object Oriented Programming</p>
+                <p class="tab">- CS 265: Assembly Language RISC Processor</p>
+                <p class="tab">- ECE 108/220</p>
+                <p class="tab">- Mathematics 214: Differential Calculus</p>
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Certifications</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>VMWare</h3>
+                        <p align="left">
+							<a href="https://www.vmware.com/">[https://www.vmware.com/] </a> <br>
+						-	VCP 3(VMware Certified Professional)<br>
+						-	VCP 4(VMware Certified Professional)<br>
+						-	VCP6-DCV(Vsphere 6 Datacenter Virtualization) License VMW-01456224J-00475053<br>
+						-	VCP-NSX(Network Virtualization) License VMW-01456224J-00475053<br><br>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Redhat, Inc. </h3>
+                        <p align="left">
+                            <a href="https://www.redhat.com/">[https://www.redhat.com/] </a> <br>
+                            - RHCE(Redhat Certified Engineer) - RHEL5<br>
+                            - RHCT(Redhat Certified Technician) - RHEL4 and RHEL5<br><br>
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+				
+				<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Extraneous Certifications</h3>
+                        <p align="left">
+                            <a href="https://www.sun.com">[https://www.sun.com]</a><br>
+                            <a href="https://www.cisco.com">[https://www.cisco.com]</a><br>
+							- CCNA(Cisco Certified Network Administrator)<br>
+							- SCSA(Solaris Certified System Administrator) - Solaris 7<br><br>
+                        </p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li class="zoom">Powershell</li>
+			<li class="zoom">Bash</li>
+            <li class="zoom">VMware</li>
+            <li class="zoom">Chef</li>
+            <li class="zoom">Ansible</li>
+            <li class="zoom">NSX</li>
+            <li class="zoom">VSAN</li>
+            <li class="zoom">ScaleIO</li>
+            <li class="zoom">API</li>
+            <li class="zoom">GIT</li>
+            <li class="zoom">Docker</li>
+            <li class="zoom">Kubernetes</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+		<a href="https://jaythompson.slack.com/team/UGMDRBAFL" style="color: white;">Slack Me!</a>
+        <!--div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div-->
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2019 Jay Thompson
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                                <a href="mailto:jacynthompson@yahoo.com?Subject=Hello"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/formichunter" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jacynthompson/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/twizod" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>     
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+	<style>
+.zoom {
+    background-color: #3498db;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.zoom_tab {
+    background-color: white;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom_tab:hover {
+  background-color: white;
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
+</body>
+
+</html>
